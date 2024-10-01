@@ -6,7 +6,7 @@ import okhttp3.OkHttpClient
 import java.text.SimpleDateFormat
 import java.util.Locale
 
-class KomikindoCo : MangaThemesia("Komiksin", "https://komiksin.id", "id", dateFormat = SimpleDateFormat("MMM dd, yyyy", Locale("id"))) {
+class Komiksin : MangaThemesia("Komiksin", "https://komiksin.id", "id", dateFormat = SimpleDateFormat("MMM dd, yyyy", Locale("id"))) {
     // Formerly "Komikindo.co"
     override val id = 734619124437406170
 
