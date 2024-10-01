@@ -1,9 +1,9 @@
 ext {
-    extName = 'KomikIndo.co'
-    extClass = '.KomikindoCo'
+    extName = 'Komiksin'
+    extClass = '.Komiksin'
     themePkg = 'mangathemesia'
-    baseUrl = 'https://komikindo.co'
-    overrideVersionCode = 3
+    baseUrl = 'https://komiksin.id'
+    overrideVersionCode = 4
 }
 
 apply from: "$rootDir/common.gradle"
